@@ -22,7 +22,7 @@ export const questions: Question[] = [
     id: 2,
     text: {
       es: "¿{financialEntityName} ha solicitado información a ${MEO} sobre algún aspecto de cumplimiento de DORA?",
-      pt: "{financialEntityName} solicitou informações a a ${MEO} 'Meo' ${MEO} sobre algum aspeto de conformidade com o DORA?"
+      pt: "{financialEntityName} solicitou informações a {MEO} sobre algum aspeto de conformidade com o DORA?"
     },
     categoryId: 1,
     options: [
