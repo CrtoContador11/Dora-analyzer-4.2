@@ -13,11 +13,11 @@ const QuestionnaireStarter: React.FC<QuestionnaireStarterProps> = ({ language, o
   const meo = 'Meo'; // Variable Meo for future use in questions
 
   const departmentOptions = [
-    { value: 'dept1', label: { es: 'Departamento 1', pt: 'Torre de Serviços 1' } },
-    { value: 'dept2', label: { es: 'Departamento 2', pt: 'Torre de Serviços 2' } },
-    { value: 'dept3', label: { es: 'Departamento 3', pt: 'Torre de Serviços 3' } },
-    { value: 'dept4', label: { es: 'Departamento 4', pt: 'Torre de Serviços 4' } },
-    { value: 'dept5', label: { es: 'Departamento 5', pt: 'Torre de Serviços 5' } },
+    { value: 'dept1', label: { es: 'Departamento 1', pt: 'Serviços de Cloud & Data Center' } },
+    { value: 'dept2', label: { es: 'Departamento 2', pt: 'Serviços de Dados & Internet fixo e móvel' } },
+    { value: 'dept3', label: { es: 'Departamento 3', pt: 'Serviços de Segurança' } },
+    { value: 'dept4', label: { es: 'Departamento 4', pt: 'Serviços de Comunicação Unificadas' } },
+    { value: 'dept5', label: { es: 'Departamento 5', pt: 'Serviços IoT Connect' } },
   ];
 
   const handleStartQuestionnaire = () => {
