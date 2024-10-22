@@ -3,7 +3,7 @@ import { Question, Category } from './types';
 export const MEO = 'Meo'; // Constant for use in questions
 
 export const questions: Question[] = [
-{
+  {
     id: 1,
     text: {
       es: "¿{financialEntityName} ha evidenciado estar trabajando en el cumplimiento del reglamento DORA?",
@@ -21,8 +21,8 @@ export const questions: Question[] = [
   {
     id: 2,
     text: {
-      es: "¿{financialEntityName} ha solicitado información a ${MEO} sobre algún aspecto de cumplimiento de DORA?",
-      pt: "{financialEntityName} solicitou informações a {MEO} sobre algum aspeto de conformidade com o DORA?"
+      es: "¿{financialEntityName} ha solicitado información a " + MEO + " sobre algún aspecto de cumplimiento de DORA?",
+      pt: "{financialEntityName} solicitou informações a " + MEO + " sobre algum aspeto de conformidade com o DORA?"
     },
     categoryId: 1,
     options: [
@@ -36,8 +36,8 @@ export const questions: Question[] = [
   {
     id: 3,
     text: {
-      es: "¿${MEO} mantiene un inventario actualizado de los activos TIC que soportan los servicios prestados a {financialEntityName}?",
-      pt: "${MEO} mantém um inventário atualizado dos ativos TIC que suportam os serviços prestados a {financialEntityName}?"
+      es: "¿" + MEO + " mantiene un inventario actualizado de los activos TIC que soportan los servicios prestados a {financialEntityName}?",
+      pt: "" + MEO + " mantém um inventário atualizado dos ativos TIC que suportam os serviços prestados a {financialEntityName}?"
     },
     categoryId: 1,
     options: [
@@ -51,8 +51,8 @@ export const questions: Question[] = [
   {
     id: 4,
     text: {
-      es: "¿{financialEntityName} tiene acceso al inventario actualizado de activos gestionados por ${MEO}? ¿Lo ha solicitado?",
-      pt: "{financialEntityName} tem acesso ao inventário atualizado dos ativos geridos por ${MEO}? Solicitou-o?"
+      es: "¿{financialEntityName} tiene acceso al inventario actualizado de activos gestionados por " + MEO + "? ¿Lo ha solicitado?",
+      pt: "{financialEntityName} tem acesso ao inventário atualizado dos ativos geridos por " + MEO + "? Solicitou-o?"
     },
     categoryId: 1,
     options: [
@@ -66,8 +66,8 @@ export const questions: Question[] = [
   {
     id: 6,
     text: {
-      es: "{financialEntityName} debe realizar un análisis de riesgos de los activos proporcionados por ${MEO} ¿Hay constancia de que sea así? ¿Por ejemplo, ha pedido detalles de algún activo para poder evaluar riesgos?",
-      pt: "{financialEntityName} deve realizar uma análise de riscos dos ativos fornecidos por ${MEO}. Há evidências disso? Por exemplo pediu, detalhes de algum ativo para poder avaliar riscos?"
+      es: "{financialEntityName} debe realizar un análisis de riesgos de los activos proporcionados por " + MEO + " ¿Hay constancia de que sea así? ¿Por ejemplo, ha pedido detalles de algún activo para poder evaluar riesgos?",
+      pt: "{financialEntityName} deve realizar uma análise de riscos dos ativos fornecidos por " + MEO + ". Há evidências disso? Por exemplo pediu, detalhes de algum ativo para poder avaliar riscos?"
     },
     categoryId: 1,
     options: [
@@ -81,8 +81,8 @@ export const questions: Question[] = [
   {
     id: 7,
     text: {
-      es: "¿${MEO} sabe a qué funciones de negocio de {financialEntityName} esos activos dan soporte?",
-      pt: "${MEO} sabe a que funções de negócio de {financialEntityName} esses ativos dão suporte?"
+      es: "¿" + MEO + " sabe a qué funciones de negocio de {financialEntityName} esos activos dan soporte?",
+      pt: "" + MEO + " sabe a que funções de negócio de {financialEntityName} esses ativos dão suporte?"
     },
     categoryId: 1,
     options: [
@@ -96,8 +96,8 @@ export const questions: Question[] = [
   {
     id: 8,
     text: {
-      es: "¿${MEO} sabe si las funciones de negocio de {financialEntityName} soportadas son críticas o importantes?",
-      pt: "${MEO} sabe se as funções de negócio de {financialEntityName} suportadas são críticas ou importantes?"
+      es: "¿" + MEO + " sabe si las funciones de negocio de {financialEntityName} soportadas son críticas o importantes?",
+      pt: "" + MEO + " sabe se as funções de negócio de {financialEntityName} suportadas são críticas ou importantes?"
     },
     categoryId: 1,
     options: [
@@ -126,8 +126,8 @@ export const questions: Question[] = [
   {
     id: 10,
     text: {
-      es: "¿${MEO} sabe si los servicios prestados a {financialEntityName} constituyen una externalización completa o parcial?",
-      pt: "${MEO} sabe se os serviços prestados a {financialEntityName} constituem uma externalização completa ou parcial?"
+      es: "¿" + MEO + " sabe si los servicios prestados a {financialEntityName} constituyen una externalización completa o parcial?",
+      pt: "" + MEO + " sabe se os serviços prestados a {financialEntityName} constituem uma externalização completa ou parcial?"
     },
     categoryId: 1,
     options: [
@@ -141,8 +141,8 @@ export const questions: Question[] = [
   {
     id: 11,
     text: {
-      es: "Si los servicios prestados constituyen una externalización, {financialEntityName} debe realizar una evaluación de riesgo ¿le consta a ${MEO} que la haya hecho?",
-      pt: "Se os serviços prestados constituem uma externalização, {financialEntityName} deve realizar uma avaliação de risco. Sabe ${MEO} se isso foi feito?"
+      es: "Si los servicios prestados constituyen una externalización, {financialEntityName} debe realizar una evaluación de riesgo ¿le consta a " + MEO + " que la haya hecho?",
+      pt: "Se os serviços prestados constituem uma externalização, {financialEntityName} deve realizar uma avaliação de risco. Sabe " + MEO + " se isso foi feito?"
     },
     categoryId: 2,
     options: [
@@ -156,8 +156,8 @@ export const questions: Question[] = [
   {
     id: 12,
     text: {
-      es: "¿Conoce la política de seguridad definida por ${MEO}?",
-      pt: "Conhece a política de segurança definida por ${MEO}?"
+      es: "¿Conoce la política de seguridad definida por " + MEO + "?",
+      pt: "Conhece a política de segurança definida por " + MEO + "?"
     },
     categoryId: 3,
     options: [
@@ -186,8 +186,8 @@ export const questions: Question[] = [
   {
     id: 14,
     text: {
-      es: "¿El alcance de la certificación ISO 27001 de ${MEO} incluye todos los servicios TIC prestados a {financialEntityName}?",
-      pt: "O âmbito da certificação ISO 27001 de ${MEO} inclui todos os serviços TIC prestados a {financialEntityName}?"
+      es: "¿El alcance de la certificación ISO 27001 de " + MEO + " incluye todos los servicios TIC prestados a {financialEntityName}?",
+      pt: "O âmbito da certificação ISO 27001 de " + MEO + " inclui todos os serviços TIC prestados a {financialEntityName}?"
     },
     categoryId: 3,
     options: [
@@ -216,8 +216,8 @@ export const questions: Question[] = [
   {
     id: 16,
     text: {
-      es: "¿Se han documentado en el contrato todas las ubicaciones desde las que ${MEO} presta servicio (incluyendo soporte), así como el lugar donde se almacenarán los datos?",
-      pt: "Estão documentadas no contrato todas as localizações a partir das quais ${MEO} presta serviços (incluindo suporte), bem como o local onde os dados serão armazenados?"
+      es: "¿Se han documentado en el contrato todas las ubicaciones desde las que " + MEO + " presta servicio (incluyendo soporte), así como el lugar donde se almacenarán los datos?",
+      pt: "Estão documentadas no contrato todas as localizações a partir das quais " + MEO + " presta serviços (incluindo suporte), bem como o local onde os dados serão armazenados?"
     },
     categoryId: 4,
     options: [
@@ -231,8 +231,8 @@ export const questions: Question[] = [
   {
     id: 17,
     text: {
-      es: "¿Existen cláusulas contractuales que regulan o impidan la subcontratación de servicios por parte de ${MEO}?",
-      pt: "Existem cláusulas contratuais que regulam ou impedem a subcontratação de serviços por parte de ${MEO}?"
+      es: "¿Existen cláusulas contractuales que regulan o impidan la subcontratación de servicios por parte de " + MEO + "?",
+      pt: "Existem cláusulas contratuais que regulam ou impedem a subcontratação de serviços por parte de " + MEO + "?"
     },
     categoryId: 4,
     options: [
@@ -246,8 +246,8 @@ export const questions: Question[] = [
   {
     id: 18,
     text: {
-      es: "¿${MEO} ha implementado un proceso formal de evaluación y auditoría de sus subcontratas para los servicios TIC prestados a {financialEntityName}, garantizando que cumplen con los requisitos exigidos por el contrato?",
-      pt: "${MEO} implementou um processo formal de avaliação e auditoria das suas subcontratações para os serviços TIC prestados a {financialEntityName}, garantindo que cumprem os requisitos exigidos pelo contrato?"
+      es: "¿" + MEO + " ha implementado un proceso formal de evaluación y auditoría de sus subcontratas para los servicios TIC prestados a {financialEntityName}, garantizando que cumplen con los requisitos exigidos por el contrato?",
+      pt: "" + MEO + " implementou um processo formal de avaliação e auditoria das suas subcontratações para os serviços TIC prestados a {financialEntityName}, garantindo que cumprem os requisitos exigidos pelo contrato?"
     },
     categoryId: 7,
     options: [
@@ -261,8 +261,8 @@ export const questions: Question[] = [
   {
     id: 19,
     text: {
-      es: "¿${MEO} garantiza que el contenido de los contratos corresponde fielmente al servicio que se está prestando a {financialEntityName}, en lo que respecta al detalle de los servicios y a los SLAs?",
-      pt: "${MEO} garante que o conteúdo dos contratos corresponde fielmente ao serviço que está a ser prestado a {financialEntityName}, no que respeita ao detalhe dos serviços e aos SLAs?"
+      es: "¿" + MEO + " garantiza que el contenido de los contratos corresponde fielmente al servicio que se está prestando a {financialEntityName}, en lo que respecta al detalle de los servicios y a los SLAs?",
+      pt: "" + MEO + " garante que o conteúdo dos contratos corresponde fielmente ao serviço que está a ser prestado a {financialEntityName}, no que respeita ao detalhe dos serviços e aos SLAs?"
     },
     categoryId: 7,
     options: [
@@ -276,8 +276,8 @@ export const questions: Question[] = [
   {
     id: 20,
     text: {
-      es: "¿El contrato detalla las obligaciones y los términos en los cuales ${MEO} ha de prestar asistencia técnica y operativa a {financialEntityName} en caso de ocurrir un incidente?",
-      pt: "O contrato detalha as obrigações e os termos nos quais ${MEO} deve prestar assistência técnica e operacional a {financialEntityName} em caso de incidente?"
+      es: "¿El contrato detalla las obligaciones y los términos en los cuales " + MEO + " ha de prestar asistencia técnica y operativa a {financialEntityName} en caso de ocurrir un incidente?",
+      pt: "O contrato detalha as obrigações e os termos nos quais " + MEO + " deve prestar assistência técnica e operacional a {financialEntityName} em caso de incidente?"
     },
     categoryId: 8,
     options: [
@@ -306,8 +306,8 @@ export const questions: Question[] = [
   {
     id: 22,
     text: {
-      es: "¿El personal de ${MEO} que opera o gestiona los servicios conoce los procedimientos de gestión de incidentes de {financialEntityName} para operar conforme a ellos si se diese el caso?",
-      pt: "O pessoal de ${MEO} que opera ou gere os serviços conhece os procedimentos de gestão de incidentes de {financialEntityName} para operar de acordo com eles, se for o caso?"
+      es: "¿El personal de " + MEO + " que opera o gestiona los servicios conoce los procedimientos de gestión de incidentes de {financialEntityName} para operar conforme a ellos si se diese el caso?",
+      pt: "O pessoal de " + MEO + " que opera ou gere os serviços conhece os procedimentos de gestão de incidentes de {financialEntityName} para operar de acordo com eles, se for o caso?"
     },
     categoryId: 9,
     options: [
@@ -321,8 +321,8 @@ export const questions: Question[] = [
   {
     id: 23,
     text: {
-      es: "¿El contrato incluye cláusulas sobre derechos de acceso a instalaciones y de solicitud de información a ${MEO} por parte de {financialEntityName} o de organismos reguladores?",
-      pt: "O contrato inclui cláusulas sobre direitos de acesso a instalações e pedidos de informação a ${MEO} por parte de {financialEntityName} ou dos organismos reguladores?"
+      es: "¿El contrato incluye cláusulas sobre derechos de acceso a instalaciones y de solicitud de información a " + MEO + " por parte de {financialEntityName} o de organismos reguladores?",
+      pt: "O contrato inclui cláusulas sobre direitos de acesso a instalações e pedidos de informação a " + MEO + " por parte de {financialEntityName} ou dos organismos reguladores?"
     },
     categoryId: 10,
     options: [
@@ -336,8 +336,8 @@ export const questions: Question[] = [
   {
     id: 24,
     text: {
-      es: "¿Ha solicitado {financialEntityName} que ${MEO} participe en programas de formación específicos desarrollados por la entidad para garantizar que está alineado con los estándares y procedimientos internos del cliente?",
-      pt: "{financialEntityName} solicitou que ${MEO} participe em programas de formação específicos desenvolvidos por a entidade para garantir que está alinhado com as normas e procedimentos internos do cliente?"
+      es: "¿Ha solicitado {financialEntityName} que " + MEO + " participe en programas de formación específicos desarrollados por la entidad para garantizar que está alineado con los estándares y procedimientos internos del cliente?",
+      pt: "{financialEntityName} solicitou que " + MEO + " participe em programas de formação específicos desenvolvidos por a entidade para garantir que está alinhado com as normas e procedimentos internos do cliente?"
     },
     categoryId: 11,
     options: [
@@ -351,8 +351,8 @@ export const questions: Question[] = [
   {
     id: 25,
     text: {
-      es: "¿El contrato con {financialEntityName} establece disposiciones claras y documentadas para garantizar el acceso, recuperación y devolución de datos personales y no personales procesados en caso de insolvencia, resolución, discontinuación de operaciones por parte de ${MEO} o finalización del acuerdo contractual?",
-      pt: "O contrato com {financialEntityName} estabelece disposições claras e documentadas para garantir o acesso, recuperação e devolução de dados pessoais e não pessoais processados em caso de insolvência, dissolução, descontinuação das operações por parte de ${MEO} ou rescisão do contrato?"
+      es: "¿El contrato con {financialEntityName} establece disposiciones claras y documentadas para garantizar el acceso, recuperación y devolución de datos personales y no personales procesados en caso de insolvencia, resolución, discontinuación de operaciones por parte de " + MEO + " o finalización del acuerdo contractual?",
+      pt: "O contrato com {financialEntityName} estabelece disposições claras e documentadas para garantir o acesso, recuperação e devolução de dados pessoais e não pessoais processados em caso de insolvência, dissolução, descontinuação das operações por parte de " + MEO + " ou rescisão do contrato?"
     },
     categoryId: 12,
     options: [
@@ -381,8 +381,8 @@ export const questions: Question[] = [
   {
     id: 27,
     text: {
-      es: "¿Ha solicitado {financialEntityName} a ${MEO} la participación en pruebas de penetración basadas en amenazas (TLPT) u otras pruebas similares (TIBER EU)?",
-      pt: "{financialEntityName} solicitou a participação de ${MEO} em testes de penetração baseados em ameaças (TLPT) ou outros testes similares (TIBER UE)?"
+      es: "¿Ha solicitado {financialEntityName} a " + MEO + " la participación en pruebas de penetración basadas en amenazas (TLPT) u otras pruebas similares (TIBER EU)?",
+      pt: "{financialEntityName} solicitou a participação de " + MEO + " em testes de penetração baseados em ameaças (TLPT) ou outros testes similares (TIBER UE)?"
     },
     categoryId: 15,
     options: [
@@ -393,7 +393,7 @@ export const questions: Question[] = [
       { text: { es: "No aplica", pt: "Não se aplica" }, value: 0 }
     ]
   }
-  ];
+];
 
 export const categories: Category[] = [
   {
