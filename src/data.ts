@@ -14,7 +14,8 @@ export const questions: Question[] = [
       { text: { es: "Sí", pt: "Sim" }, value: 100 },
       { text: { es: "Parcialmente", pt: "Parcialmente" }, value: 50 },
       { text: { es: "No", pt: "Não" }, value: 0 },
-      { text: { es: "No sé", pt: "Não sei" }, value: 25 }
+      { text: { es: "No sé", pt: "Não sei" }, value: 25 },
+      { text: { es: "No aplica", pt: "Não se aplica" }, value: 0 }
     ]
   },
   {
@@ -25,10 +26,11 @@ export const questions: Question[] = [
     },
     categoryId: 1,
     options: [
-      { text: { es: "Sí", pt: "Sim" }, value: 100 },
+       { text: { es: "Sí", pt: "Sim" }, value: 100 },
       { text: { es: "Parcialmente", pt: "Parcialmente" }, value: 50 },
       { text: { es: "No", pt: "Não" }, value: 0 },
-      { text: { es: "No sé", pt: "Não sei" }, value: 25 }
+      { text: { es: "No sé", pt: "Não sei" }, value: 25 },
+      { text: { es: "No aplica", pt: "Não se aplica" }, value: 0 }
     ]
   },
   {
@@ -42,7 +44,8 @@ export const questions: Question[] = [
       { text: { es: "Sí", pt: "Sim" }, value: 100 },
       { text: { es: "Parcialmente", pt: "Parcialmente" }, value: 50 },
       { text: { es: "No", pt: "Não" }, value: 0 },
-      { text: { es: "No sé", pt: "Não sei" }, value: 25 }
+      { text: { es: "No sé", pt: "Não sei" }, value: 25 },
+      { text: { es: "No aplica", pt: "Não se aplica" }, value: 0 }
     ]
   },
   {
@@ -53,10 +56,11 @@ export const questions: Question[] = [
     },
     categoryId: 1,
     options: [
-      { text: { es: "Sí", pt: "Sim" }, value: 100 },
+     { text: { es: "Sí", pt: "Sim" }, value: 100 },
       { text: { es: "Parcialmente", pt: "Parcialmente" }, value: 50 },
       { text: { es: "No", pt: "Não" }, value: 0 },
-      { text: { es: "No sé", pt: "Não sei" }, value: 25 }
+      { text: { es: "No sé", pt: "Não sei" }, value: 25 },
+      { text: { es: "No aplica", pt: "Não se aplica" }, value: 0 }
     ]
   },
   {
@@ -70,7 +74,8 @@ export const questions: Question[] = [
       { text: { es: "Sí", pt: "Sim" }, value: 100 },
       { text: { es: "Parcialmente", pt: "Parcialmente" }, value: 50 },
       { text: { es: "No", pt: "Não" }, value: 0 },
-      { text: { es: "No sé", pt: "Não sei" }, value: 25 }
+      { text: { es: "No sé", pt: "Não sei" }, value: 25 },
+      { text: { es: "No aplica", pt: "Não se aplica" }, value: 0 }
     ]
   },
   {
@@ -81,10 +86,11 @@ export const questions: Question[] = [
     },
     categoryId: 1,
     options: [
-      { text: { es: "Sí", pt: "Sim" }, value: 100 },
+     { text: { es: "Sí", pt: "Sim" }, value: 100 },
       { text: { es: "Parcialmente", pt: "Parcialmente" }, value: 50 },
       { text: { es: "No", pt: "Não" }, value: 0 },
-      { text: { es: "No sé", pt: "Não sei" }, value: 25 }
+      { text: { es: "No sé", pt: "Não sei" }, value: 25 },
+      { text: { es: "No aplica", pt: "Não se aplica" }, value: 0 }
     ]
   },
   {
@@ -95,10 +101,11 @@ export const questions: Question[] = [
     },
     categoryId: 1,
     options: [
-      { text: { es: "Sí", pt: "Sim" }, value: 100 },
+       { text: { es: "Sí", pt: "Sim" }, value: 100 },
       { text: { es: "Parcialmente", pt: "Parcialmente" }, value: 50 },
       { text: { es: "No", pt: "Não" }, value: 0 },
-      { text: { es: "No sé", pt: "Não sei" }, value: 25 }
+      { text: { es: "No sé", pt: "Não sei" }, value: 25 },
+      { text: { es: "No aplica", pt: "Não se aplica" }, value: 0 }
     ]
   },
   {
@@ -112,7 +119,8 @@ export const questions: Question[] = [
       { text: { es: "Sí", pt: "Sim" }, value: 100 },
       { text: { es: "Parcialmente", pt: "Parcialmente" }, value: 50 },
       { text: { es: "No", pt: "Não" }, value: 0 },
-      { text: { es: "No sé", pt: "Não sei" }, value: 25 }
+      { text: { es: "No sé", pt: "Não sei" }, value: 25 },
+      { text: { es: "No aplica", pt: "Não se aplica" }, value: 0 }
     ]
   },
   {
@@ -126,7 +134,8 @@ export const questions: Question[] = [
       { text: { es: "Sí", pt: "Sim" }, value: 100 },
       { text: { es: "Parcialmente", pt: "Parcialmente" }, value: 50 },
       { text: { es: "No", pt: "Não" }, value: 0 },
-      { text: { es: "No sé", pt: "Não sei" }, value: 25 }
+      { text: { es: "No sé", pt: "Não sei" }, value: 25 },
+      { text: { es: "No aplica", pt: "Não se aplica" }, value: 0 }
     ]
   },
   {
@@ -140,7 +149,8 @@ export const questions: Question[] = [
       { text: { es: "Sí", pt: "Sim" }, value: 100 },
       { text: { es: "Parcialmente", pt: "Parcialmente" }, value: 50 },
       { text: { es: "No", pt: "Não" }, value: 0 },
-      { text: { es: "No sé", pt: "Não sei" }, value: 25 }
+      { text: { es: "No sé", pt: "Não sei" }, value: 25 },
+      { text: { es: "No aplica", pt: "Não se aplica" }, value: 0 }
     ]
   },
   {
@@ -151,10 +161,11 @@ export const questions: Question[] = [
     },
     categoryId: 3,
     options: [
-      { text: { es: "Sí", pt: "Sim" }, value: 100 },
+     { text: { es: "Sí", pt: "Sim" }, value: 100 },
       { text: { es: "Parcialmente", pt: "Parcialmente" }, value: 50 },
       { text: { es: "No", pt: "Não" }, value: 0 },
-      { text: { es: "No sé", pt: "Não sei" }, value: 25 }
+      { text: { es: "No sé", pt: "Não sei" }, value: 25 },
+      { text: { es: "No aplica", pt: "Não se aplica" }, value: 0 }
     ]
   },
   {
@@ -168,7 +179,8 @@ export const questions: Question[] = [
       { text: { es: "Sí", pt: "Sim" }, value: 100 },
       { text: { es: "Parcialmente", pt: "Parcialmente" }, value: 50 },
       { text: { es: "No", pt: "Não" }, value: 0 },
-      { text: { es: "No sé", pt: "Não sei" }, value: 25 }
+      { text: { es: "No sé", pt: "Não sei" }, value: 25 },
+      { text: { es: "No aplica", pt: "Não se aplica" }, value: 0 }
     ]
   },
   {
@@ -182,7 +194,8 @@ export const questions: Question[] = [
       { text: { es: "Sí", pt: "Sim" }, value: 100 },
       { text: { es: "Parcialmente", pt: "Parcialmente" }, value: 50 },
       { text: { es: "No", pt: "Não" }, value: 0 },
-      { text: { es: "No sé", pt: "Não sei" }, value: 25 }
+      { text: { es: "No sé", pt: "Não sei" }, value: 25 },
+      { text: { es: "No aplica", pt: "Não se aplica" }, value: 0 }
     ]
   },
   {
@@ -196,7 +209,8 @@ export const questions: Question[] = [
       { text: { es: "Sí", pt: "Sim" }, value: 100 },
       { text: { es: "Parcialmente", pt: "Parcialmente" }, value: 50 },
       { text: { es: "No", pt: "Não" }, value: 0 },
-      { text: { es: "No sé", pt: "Não sei" }, value: 25 }
+      { text: { es: "No sé", pt: "Não sei" }, value: 25 },
+      { text: { es: "No aplica", pt: "Não se aplica" }, value: 0 }
     ]
   },
   {
@@ -207,10 +221,11 @@ export const questions: Question[] = [
     },
     categoryId: 4,
     options: [
-      { text: { es: "Sí", pt: "Sim" }, value: 100 },
+       { text: { es: "Sí", pt: "Sim" }, value: 100 },
       { text: { es: "Parcialmente", pt: "Parcialmente" }, value: 50 },
       { text: { es: "No", pt: "Não" }, value: 0 },
-      { text: { es: "No sé", pt: "Não sei" }, value: 25 }
+      { text: { es: "No sé", pt: "Não sei" }, value: 25 },
+      { text: { es: "No aplica", pt: "Não se aplica" }, value: 0 }
     ]
   },
   {
@@ -221,10 +236,11 @@ export const questions: Question[] = [
     },
     categoryId: 4,
     options: [
-      { text: { es: "Sí", pt: "Sim" }, value: 100 },
+       { text: { es: "Sí", pt: "Sim" }, value: 100 },
       { text: { es: "Parcialmente", pt: "Parcialmente" }, value: 50 },
       { text: { es: "No", pt: "Não" }, value: 0 },
-      { text: { es: "No sé", pt: "Não sei" }, value: 25 }
+      { text: { es: "No sé", pt: "Não sei" }, value: 25 },
+      { text: { es: "No aplica", pt: "Não se aplica" }, value: 0 }
     ]
   },
   {
@@ -235,10 +251,11 @@ export const questions: Question[] = [
     },
     categoryId: 7,
     options: [
-      { text: { es: "Sí", pt: "Sim" }, value: 100 },
+       { text: { es: "Sí", pt: "Sim" }, value: 100 },
       { text: { es: "Parcialmente", pt: "Parcialmente" }, value: 50 },
       { text: { es: "No", pt: "Não" }, value: 0 },
-      { text: { es: "No sé", pt: "Não sei" }, value: 25 }
+      { text: { es: "No sé", pt: "Não sei" }, value: 25 },
+      { text: { es: "No aplica", pt: "Não se aplica" }, value: 0 }
     ]
   },
   {
@@ -252,7 +269,8 @@ export const questions: Question[] = [
       { text: { es: "Sí", pt: "Sim" }, value: 100 },
       { text: { es: "Parcialmente", pt: "Parcialmente" }, value: 50 },
       { text: { es: "No", pt: "Não" }, value: 0 },
-      { text: { es: "No sé", pt: "Não sei" }, value: 25 }
+      { text: { es: "No sé", pt: "Não sei" }, value: 25 },
+      { text: { es: "No aplica", pt: "Não se aplica" }, value: 0 }
     ]
   },
   {
@@ -266,7 +284,8 @@ export const questions: Question[] = [
       { text: { es: "Sí", pt: "Sim" }, value: 100 },
       { text: { es: "Parcialmente", pt: "Parcialmente" }, value: 50 },
       { text: { es: "No", pt: "Não" }, value: 0 },
-      { text: { es: "No sé", pt: "Não sei" }, value: 25 }
+      { text: { es: "No sé", pt: "Não sei" }, value: 25 },
+      { text: { es: "No aplica", pt: "Não se aplica" }, value: 0 }
     ]
   },
   {
@@ -280,7 +299,8 @@ export const questions: Question[] = [
       { text: { es: "Sí", pt: "Sim" }, value: 100 },
       { text: { es: "Parcialmente", pt: "Parcialmente" }, value: 50 },
       { text: { es: "No", pt: "Não" }, value: 0 },
-      { text: { es: "No sé", pt: "Não sei" }, value: 25 }
+      { text: { es: "No sé", pt: "Não sei" }, value: 25 },
+      { text: { es: "No aplica", pt: "Não se aplica" }, value: 0 }
     ]
   },
   {
@@ -291,10 +311,11 @@ export const questions: Question[] = [
     },
     categoryId: 9,
     options: [
-      { text: { es: "Sí", pt: "Sim" }, value: 100 },
+       { text: { es: "Sí", pt: "Sim" }, value: 100 },
       { text: { es: "Parcialmente", pt: "Parcialmente" }, value: 50 },
       { text: { es: "No", pt: "Não" }, value: 0 },
-      { text: { es: "No sé", pt: "Não sei" }, value: 25 }
+      { text: { es: "No sé", pt: "Não sei" }, value: 25 },
+      { text: { es: "No aplica", pt: "Não se aplica" }, value: 0 }
     ]
   },
   {
@@ -305,10 +326,11 @@ export const questions: Question[] = [
     },
     categoryId: 10,
     options: [
-      { text: { es: "Sí", pt: "Sim" }, value: 100 },
+       { text: { es: "Sí", pt: "Sim" }, value: 100 },
       { text: { es: "Parcialmente", pt: "Parcialmente" }, value: 50 },
       { text: { es: "No", pt: "Não" }, value: 0 },
-      { text: { es: "No sé", pt: "Não sei" }, value: 25 }
+      { text: { es: "No sé", pt: "Não sei" }, value: 25 },
+      { text: { es: "No aplica", pt: "Não se aplica" }, value: 0 }
     ]
   },
   {
@@ -319,10 +341,11 @@ export const questions: Question[] = [
     },
     categoryId: 11,
     options: [
-      { text: { es: "Sí", pt: "Sim" }, value: 100 },
+       { text: { es: "Sí", pt: "Sim" }, value: 100 },
       { text: { es: "Parcialmente", pt: "Parcialmente" }, value: 50 },
       { text: { es: "No", pt: "Não" }, value: 0 },
-      { text: { es: "No sé", pt: "Não sei" }, value: 25 }
+      { text: { es: "No sé", pt: "Não sei" }, value: 25 },
+      { text: { es: "No aplica", pt: "Não se aplica" }, value: 0 }
     ]
   },
   {
@@ -336,7 +359,8 @@ export const questions: Question[] = [
       { text: { es: "Sí", pt: "Sim" }, value: 100 },
       { text: { es: "Parcialmente", pt: "Parcialmente" }, value: 50 },
       { text: { es: "No", pt: "Não" }, value: 0 },
-      { text: { es: "No sé", pt: "Não sei" }, value: 25 }
+      { text: { es: "No sé", pt: "Não sei" }, value: 25 },
+      { text: { es: "No aplica", pt: "Não se aplica" }, value: 0 }
     ]
   },
   {
@@ -347,10 +371,11 @@ export const questions: Question[] = [
     },
     categoryId: 13,
     options: [
-      { text: { es: "Sí", pt: "Sim" }, value: 100 },
+       { text: { es: "Sí", pt: "Sim" }, value: 100 },
       { text: { es: "Parcialmente", pt: "Parcialmente" }, value: 50 },
       { text: { es: "No", pt: "Não" }, value: 0 },
-      { text: { es: "No sé", pt: "Não sei" }, value: 25 }
+      { text: { es: "No sé", pt: "Não sei" }, value: 25 },
+      { text: { es: "No aplica", pt: "Não se aplica" }, value: 0 }
     ]
   },
   {
@@ -364,7 +389,8 @@ export const questions: Question[] = [
       { text: { es: "Sí", pt: "Sim" }, value: 100 },
       { text: { es: "Parcialmente", pt: "Parcialmente" }, value: 50 },
       { text: { es: "No", pt: "Não" }, value: 0 },
-      { text: { es: "No sé", pt: "Não sei" }, value: 25 }
+      { text: { es: "No sé", pt: "Não sei" }, value: 25 },
+      { text: { es: "No aplica", pt: "Não se aplica" }, value: 0 }
     ]
   }
   ];
