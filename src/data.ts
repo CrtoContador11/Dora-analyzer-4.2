@@ -1,6 +1,6 @@
 import { Question, Category } from './types';
 
-export const MEO = 'Meo'; // Constant for use in questions
+export const MEO = 'MEO'; // Constant for use in questions
 
 export const questions: Question[] = [
   {
